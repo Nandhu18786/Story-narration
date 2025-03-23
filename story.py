@@ -19,7 +19,7 @@ sd_pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.fl
 sd_pipe.to("cuda")
 
 # Set your Cohere API key
-api_key = 'o9af6MoU8B0F3xFxtfOdwJgF2LhuSyV0JRxHBZcM'
+api_key = 'YOUR-API-KEY'
 co = cohere.Client(api_key)
 
 # def generate_story(prompt):
